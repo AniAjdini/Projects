@@ -96,6 +96,7 @@
 <li>Storage Hdd : 40 Gb</li>
 </ul?>
 Έπειτα κατεβάσαμε την 2.3.1 έκδοση του Spark και κάναμε τις ανάλογες ρυθμίσεις με βάση το Guide που μας δόθηκε. Τέλος ορίσαμε τον master και τους workers (slaves).
+<img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" alt="Spark Architecture">
 
 # Αρχιτεκτονική του Hadoop
 
