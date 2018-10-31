@@ -49,7 +49,7 @@
 <li>Geoid : Περιέχει την αρίθμηση των περιοχών δηλαδή πρώτη περιοχή=0 και η δεύτερη = 1</li> </ul>
 
 <h1></h1>
-<img src="https://github.com/AniAjdini/Spatiotemporal-Analysis/blob/master/photos/perioxew%20ston%20xarti.png" alt="" class="center">
+<img src="https://github.com/AniAjdini/Spatiotemporal-Analysis/blob/master/photos/perioxew%20ston%20xarti.png" alt=""  width="100" height="80" class="center">
 <h1></h1>
 5. Για το τα δεδομένα [C4] Fishing Areas (European commission) έχουμε
 <ul>
