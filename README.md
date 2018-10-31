@@ -1,4 +1,4 @@
-# Spatiotemporal-Analysis in Spark
+# Spatiotemporal-Analysis in Spark & Hadoop
 
 # <center>  Εισαγωγή</center>
 
