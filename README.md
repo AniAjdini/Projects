@@ -96,10 +96,11 @@
 <li>Storage Hdd : 40 Gb</li>
 </ul?>
 Έπειτα κατεβάσαμε την 2.3.1 έκδοση του Spark και κάναμε τις ανάλογες ρυθμίσεις με βάση το Guide που μας δόθηκε. Τέλος ορίσαμε τον master και τους workers (slaves).
-
-
-<center> <img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" alt="Spark Architecture"></center>
-
+<h1></h1>
+<h1></h1>
+<img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" alt="Spark Architecture" class="center">
+<h1></h1>
+<h1></h1>
 # Αρχιτεκτονική του Hadoop
 
 Το HDFS είναι ένα σύστημα σχεδιασμένο για την αποθήκευση πολύ μεγάλου όγκου δεδομένων, με υποστήριξη για πρότυπα προσπέλασης σε δεδομένα συνεχούς ροής (streaming data access patterns), σε cluster απλών υπολογιστών. Υπάρχουν σήμερα συστάδες Hadoop σε λειτουργία, που αποθηκεύουν Petabytes δεδομένων. Το HDFS είναι χτισμένο γύρω από την ιδέα ότι το πιο αποτελεσματική πρότυπο επεξεργασίας δεδομένων είναι αυτό της «εγγραφής-μια φορά, ανάγνωσης-πολλές φορές» (write-once, read-multiple times). Τυπικά, ένα σύνολο δεδομένων παράγεται ή αντιγράφεται από προϋπάρχουσα πηγή, και στη συνέχεια πραγματοποιούνται διάφορες αναλύσεις σε αυτό το σύνολο δεδομένων. Κάθε ανάλυση περιλαμβάνει ένα μεγάλο μέρος, αν όχι όλο, από το σύνολο των δεδομένων. Κατά συνέπεια, ο χρόνος για την ανάγνωση ολόκληρου του συνόλου δεδομένων είναι πιο σημαντικός από τον χρόνο ανάγνωσης της πρώτης εγγραφής. Στην δική μας περίπτωση έχουμε 2 VM μηχανήματα σε κάθε cluster τα οποία βρίσκονται στον cloud του okeanos . Είναι δυο Ubuntu LTS τα οποία βρίσκονται σε private network με ΝΑΤ, σύμφωνα με τo Guide για το ένα cluster κα για το δεύτερο cluster απλά με public IPs.Στον master τρέχει ο NameNode , o Secondary NameNode, o NodeManager , o ResourceManager και έχουμε βάλει και εκεί να τρέχει και ένας DataNode. Ενώ στον slave τρέχει μόνο ο NodeManager και ο Datanode.
