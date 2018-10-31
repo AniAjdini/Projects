@@ -103,7 +103,7 @@
 <h1></h1>
 Image : Spark Architecture
 <h1></h1>
-<img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" alt="Spark Architecture" class="center">
+<img src="https://github.com/AniAjdini/Spatiotemporal-Analysis/blob/master/photos/master%20and%20slaves.png" alt="Spark Architecture" class="center">
 <h1></h1>
 <h1></h1>
 # Αρχιτεκτονική του Hadoop
