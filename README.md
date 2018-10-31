@@ -7,12 +7,12 @@
 # <center> Περιγραφή Δεδομένων </center>
 
 Τα δεδομένα τα όποια έχουμε χρησιμοποιήσει παρέχονται από την ιστοσελίδα του zenodo ( Heterogeneous Integrated Dataset for Maritime Intelligence, Surveillance, and Reconnaissance ) και χρονικά αναφέρονται για το εξάμηνο 2015-10-01 έως 2016-03-31. Η συγκεκριμένη ιστοσελίδα είχε πολλά data sets τα όποια αφορούν δεδομένα κινούμενων πλοίων, περιβάλλοντος (μετεωρολογικά), γεωγραφικά δεδομένα καθώς και άλλα. Από όλα αυτά τα σύνολα δεδομένων στην παρούσα εργασία θα χρησιμοποιήσουμε τα εξής :
-<ul>
+<ol>
 <li> [P1] AIS Data (nari_dynamic .csv, nari_static.csv ) </li>
 <li> [P1] AIS Status Codes and Types</li>
 <li>[C5] Fishing Constraints</li>
 <li> [C4] Fishing Areas (European commission)</li>
-</ul>
+</ol>
 
 
 1.Για το τα δεδομένα [P1] AIS Data - nari_dynamic έχουμε
