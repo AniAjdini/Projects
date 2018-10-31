@@ -100,6 +100,7 @@
 <h1></h1>
 <title><img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" alt="Spark Architecture" class="center">Spark Architecture</title>
 <h1></h1>
+<title><img src="http://datastrophic.io/content/images/2016/03/Spark-Cluster-Architecture--1-.png" ></img>Webnet</title>
 <h1></h1>
 # Αρχιτεκτονική του Hadoop
 
