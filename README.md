@@ -47,29 +47,13 @@
 <ul>
 <li>Geometry : Περιέχει τα πολύγωνα ‘’points’’ των 2 περιοχών</li>
 <li>Geoid : Περιέχει την αρίθμηση των περιοχών δηλαδή πρώτη περιοχή=0 και η δεύτερη = 1</li> </ul>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-</head>
-<body>
 
-<h2>Center an Image</h2>
-<p>To center an image, set left and right margin to auto, and make it into a block element.</p>
 
+<p>Εικονα 1: Τα δυο πολύγωνα που περιέχει το [C5] Fishing Constraints</p>
 <img src="https://github.com/AniAjdini/Spatiotemporal-Analysis/blob/master/photos/perioxew%20ston%20xarti.png" alt=""  width="500" height="350" class="center">
-
-</body>
-</html>
-
 <h1></h1>
 <h1></h1>
+
 5. Για το τα δεδομένα [C4] Fishing Areas (European commission) έχουμε
 <ul>
 <li>Name : Το όνομα του κάθε πολυγώνου (Σε όλα είναι BREST)</li> 
